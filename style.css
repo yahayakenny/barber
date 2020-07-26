@@ -1,0 +1,155 @@
+body{
+    font-size: 14px;
+    font-family: 'Raleway';
+    width: 100%;
+    height: 100%;
+   
+}
+
+.navbar-brand {
+    background-color:#162838;
+}
+
+
+nav {
+    background-color:#162838;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#home {
+	background: url(images/barber-header.png) no-repeat center fixed;
+	display: table;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+#home h2 {
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+#home a {
+    color: white;
+    background-color:#162838;;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: bold;
+}
+
+.padding {
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 50px;
+}
+
+.beard-shaving img {
+    width: 87%;
+
+}
+
+.prices img{
+    width: 87%;
+}
+
+.hair-cut img {
+    width: 100%;
+}
+
+.appointment {
+    background: url(images/APPOINTMENT\ CONTAINER.png) no-repeat center fixed;
+	display: table;
+	height: 650px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+
+}
+
+.appointment {
+    color: white;
+}
+
+.contact {
+    background: url(images/Rectangle\ 30.png) no-repeat center fixed;
+	display: table;
+	height: 500px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+footer {
+    background-color: #162838;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .email-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .email-footer input {
+    width: 280px;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: #162838;
+    color: white;
+  }
+  .email-footer button {
+    width: 150px;
+    background-color: #e52992;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  
+  .social {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .hours {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+  
+  .copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .copy h6 {
+    font-size: 10px;
+  }
