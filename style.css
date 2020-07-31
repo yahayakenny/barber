@@ -72,7 +72,13 @@ nav {
 .cut img {
     width: 100%;
 }
+.trim img {
+    width: 100%;
+}
 
+h5 {
+    font-weight: bold;
+}
 .appointment {
     background: url(images/APPOINTMENT\ CONTAINER.png) no-repeat center fixed;
 	display: table;
