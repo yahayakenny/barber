@@ -104,12 +104,18 @@ background-repeat:no-repeat;
 }
 
 .contact {
-    background: url(images/Rectangle\ 30.png) no-repeat center fixed;
+    background: url(images/Rectangle\ 30.png);
 	display: table;
 	height: 500px;
-	width: 100%;
-	position: relative;
-	background-size: cover;
+    width: 100%;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
+
 }
 
 footer {
